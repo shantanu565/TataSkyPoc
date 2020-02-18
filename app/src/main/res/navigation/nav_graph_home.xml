@@ -12,8 +12,8 @@
         tools:layout="@layout/fragment_home">
 
         <action
-            android:id="@+id/action_fragment_login_to_fragment_home"
-            app:destination="@id/fragment_home" />
+            android:id="@+id/action_fragment_home_to_fragment_search"
+            app:destination="@id/fragment_search" />
 
     </fragment>
 
@@ -22,9 +22,7 @@
         android:label="Search"
         android:name="com.shantanu.example.tatasky.ui.feature.search.SearchFragment"
         tools:layout="@layout/fragment_search">
-        <action
-            android:id="@+id/action_fragment_registeration_to_fragment_login"
-            app:destination="@id/fragment_home" />
+
 
     </fragment>
 
